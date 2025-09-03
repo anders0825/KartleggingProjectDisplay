@@ -1,0 +1,51 @@
+/* Colors
+
+SOFT MONOCROME:
+
+  Soft White  #eeecea
+  Light Gray  #888887
+  Gray        #555656
+  Dark Gray   #3B3D3D
+  Soft Black  #212324
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #3b3d3d;
+}
+
+.cardSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 600px;
+  height: 450px;
+
+  margin: 50px;
+
+  background-color: #eeecea;
+  color: #212324;
+  line-height: 1.5;
+  text-align: center;
+
+  border: 3px solid #212324;
+}
+
+.cardInfo {
+  height: 50px;
+}
+.cardFrame {
+  width: 550px;
+  height: 350px;
+}
